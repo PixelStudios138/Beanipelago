@@ -185,7 +185,7 @@ public class MapGenerator : MonoBehaviour
 
     private void Start()
     {
-        seed = Mathf.RoundToInt(UnityEngine.Random.Range(-100000, 10000));
+        //seed = Mathf.RoundToInt(UnityEngine.Random.Range(-100000, 10000));
         DrawMapInEditor();
     }
 
